@@ -1,6 +1,6 @@
 import { useState } from "react";
-import SettingsPanel from "../SettingsPanel/SettingsPanel";
-import InfoPanel from "../InfoPanel/InfoPanel";
+import SettingsPanel from "../SettingsPanel/SettingsPanel.jsx";
+import InfoPanel from "../InfoPanel/InfoPanel.jsx";
 import settings from "../../assets/settings.svg";
 import info from "../../assets/info.svg";
 import clockIcon from "../../assets/clock.svg";

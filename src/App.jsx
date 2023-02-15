@@ -1,6 +1,6 @@
 import { useState } from "react";
-import InfoAndSettings from "./components/InfoAndSettings/InfoAndSettings";
-import Timer from "./components/Timer/Timer";
+import InfoAndSettings from "./components/InfoAndSettings/InfoAndSettings.jsx";
+import Timer from "./components/Timer/Timer.jsx";
 import "./App.css";
 
 function App() {
