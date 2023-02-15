@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react";
 import InfoAndSettings from "./components/InfoAndSettings/InfoAndSettings.jsx";
 import Timer from "./components/Timer/Timer.jsx";
