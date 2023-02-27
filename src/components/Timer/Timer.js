@@ -3,7 +3,7 @@ import restart from "../../assets/restart.svg";
 import pause from "../../assets/pause.svg";
 import play from "../../assets/play.svg";
 import buttonClickSound from "../../assets/switch-button.mp3";
-import timerFinishedSound from "../../assets/timer-finished.mp3"
+import timerFinishedSound from "../../assets/timer-finished.mp3";
 import "./Timer.css";
 
 export default function Timer({

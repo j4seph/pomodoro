@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import close from "../../assets/close.svg";
 import soundOnIcon from "../../assets/sound-on.svg";
 import soundOffIcon from "../../assets/sound-off.svg";
@@ -13,7 +13,7 @@ export default function SettingsPanel({
   breakTime,
   setBreakTime,
   soundPreference,
-  setSoundPreference
+  setSoundPreference,
 }) {
   function handleSound() {
     soundPreference ? setSoundPreference(false) : setSoundPreference(true);
